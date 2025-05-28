@@ -55,6 +55,8 @@ genes = {
     "FMR1": 38000,
 }
 
+# Criar seu código a partir daqui
+
 gene = input('digite o nome do gene: ').upper()
 encontrada = False
 
@@ -66,5 +68,3 @@ if encontrada == True:
     print('O tamanho do gene ', gene, 'é ', genes.get(gene), 'pb')
 else:
     print('Gene não encontrado')
-
-# Criar seu código a partir daqui
