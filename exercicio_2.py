@@ -32,3 +32,15 @@ variantes = [
     {"id": "rs252627", "frequencia": 0.0001},
     {"id": "rs282930", "frequencia": 0.06},
 ]
+
+lista = []
+
+for i in variantes:
+    var = i['id']
+    freq = i['frequencia']
+    if freq < 0.01:
+        lista.append(var)
+        
+print('As variantes raras são: ')
+for var in lista:
+    print(var)
